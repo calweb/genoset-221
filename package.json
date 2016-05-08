@@ -1,0 +1,46 @@
+{
+  "name": "genoset-221",
+  "version": "1.0.0",
+  "description": "Increased risk of gluten intolerance and celiac disease in europeans",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tap ./tests/*.js | tap-spec",
+    "lint": "./node_modules/.bin/standard *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/calweb/genoset-221.git"
+  },
+  "keywords": [
+    "dna",
+    "genoset",
+    "gs221",
+    "genes",
+    "celiac",
+    "gluten",
+    "DQ2.2",
+    "DQ2",
+    "genetics",
+    "HLA-DQ2"
+  ],
+  "author": "Calvin Webster <calweb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calweb/genoset-221/issues"
+  },
+  "homepage": "https://github.com/calweb/genoset-221#readme",
+  "devDependencies": {
+    "standard": "^7.0.1",
+    "tap": "^5.7.1",
+    "tap-spec": "^4.1.1"
+  },
+  "dependencies": {
+    "gql": "^1.1.0"
+  },
+  "engines": {
+    "node": "~5.5.0"
+  }
+}
